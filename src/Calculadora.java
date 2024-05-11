@@ -27,7 +27,8 @@ public class Calculadora {
                 3.Multiplicación
                 4.División
                 5.Salir
-                ¿Operación a realizar?:""");
+                """);
+        System.out.print("¿Operación a realizar?: ");
     }
 
     private static void realizarOperaciones(Scanner sc) {
